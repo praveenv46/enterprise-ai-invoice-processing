@@ -93,6 +93,31 @@ The validator also applies programmatic guardrails that prevent unsupported chan
 
 ---
 
+## 🔬 Document AI Model Evaluation
+
+During development, multiple document-processing approaches were evaluated,
+including **Amazon Textract, GPT Vision, and Azure AI Document Intelligence**.
+
+Across the invoice samples used during development, **Azure AI Document
+Intelligence produced the most consistent extraction quality**, particularly
+for invoice structure, OCR text, and tabular line-item data. It was therefore
+selected as the primary document-processing layer.
+
+The final solution uses a hybrid approach:
+
+**Azure Document Intelligence → OCR & Table Extraction → GPT-4o-mini →
+Structured Invoice JSON → Validation**
+
+Azure handles document structure and OCR, while GPT-4o-mini normalizes the
+extracted information into a consistent invoice schema for downstream
+validation and processing.
+
+> **Note:** Model selection was based on development testing against the
+> invoice samples used in this project and is not intended as a general
+> benchmark of the evaluated services.
+
+---
+
 ## 🧩 Enterprise Design Decisions
 
 | Design Decision | Reason |
