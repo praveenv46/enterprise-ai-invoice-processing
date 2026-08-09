@@ -146,9 +146,7 @@ enterprise-ai-invoice-processing/
 │   └── database_schema.png
 │
 ├── README.md
-├── requirements.txt
-├── .env.example
-└── LICENSE
+
 ```
 
 > If your screenshot file extensions differ, update the image links below so they match the exact filenames in your repository.
