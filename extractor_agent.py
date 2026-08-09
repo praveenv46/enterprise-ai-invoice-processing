@@ -154,7 +154,7 @@ def extract_invoice_from_ocr(ocr_result: Dict[str, Any]) -> Dict[str, Any]:
 if __name__ == "__main__":
     from Azure_invoice_ocr import azure_extract_invoice  # your Azure/GPT OCR module
 
-    sample_pdf = r"C:\Users\prave\Downloads\Screenshot 2025-12-14 090830.pdf"
+    sample_pdf = r"sample_invoice_1.pdf"
 
     ocr_data = azure_extract_invoice(sample_pdf)
     invoice = extract_invoice_from_ocr(ocr_data)
