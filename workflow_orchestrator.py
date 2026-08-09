@@ -99,6 +99,6 @@ def process_invoice(file_path: str) -> dict:
 # Manual test runner
 # ------------------------------------------------------
 if __name__ == "__main__":
-    file_path = r"C:\Users\prave\Downloads\Screenshot 2025-12-14 090830.pdf"
+    file_path = r"sample_invoice_1.pdf"
     result = process_invoice(file_path)
     print(result)
