@@ -95,6 +95,14 @@ The validator also applies programmatic guardrails that prevent unsupported chan
 
 ## 🧩 Enterprise Design Decisions
 
+During development, multiple document-processing approaches were evaluated,
+including **Amazon Textract, GPT Vision, and Azure AI Document Intelligence**.
+
+Across the invoice samples used during development, **Azure AI Document
+Intelligence produced the most consistent extraction quality**, particularly
+for invoice structure, OCR text, and tabular line-item data. It was therefore
+selected as the primary document-processing layer.
+
 | Design Decision | Reason |
 |---|---|
 | **Azure Document Intelligence** | Reliable OCR with structured table extraction |
