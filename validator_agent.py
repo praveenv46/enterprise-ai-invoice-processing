@@ -165,7 +165,7 @@ if __name__ == "__main__":
     from Azure_invoice_ocr import azure_extract_invoice
     from extractor import extract_invoice_from_ocr
 
-    file_path = r"C:\Users\prave\Downloads\inv test.pdf"
+    file_path = r"sample_invoice_1.pdf"
 
     ocr = azure_extract_invoice(file_path)
     extracted = extract_invoice_from_ocr(ocr)
