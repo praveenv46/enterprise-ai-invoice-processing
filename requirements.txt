@@ -1,0 +1,24 @@
+# Core AI
+openai>=1.40.0
+
+# Azure Document Intelligence
+azure-ai-documentintelligence>=1.0.0
+azure-core>=1.30.0
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Database
+# sqlite3 is included with Python
+
+# Dashboard
+streamlit>=1.37.0
+
+# Data Processing
+pandas>=2.2.2
+
+# Utilities
+requests>=2.32.0
+
+# Optional (recommended)
+Pillow>=10.4.0
