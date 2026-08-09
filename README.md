@@ -159,7 +159,8 @@ The Streamlit application provides an operational review layer for processed inv
 
 ### Successful Validation
 
-![Successful Validation](images/dashboard_success.png)
+<img width="1781" height="842" alt="image" src="https://github.com/user-attachments/assets/4b0e6ea9-5e5a-4030-942c-5e5b85783865" />
+
 
 ### Invoice Requiring Review
 
@@ -168,7 +169,8 @@ The Streamlit application provides an operational review layer for processed inv
 
 ### SQLite Database
 
-![SQLite Database](images/database_schema.png)
+<img width="1877" height="932" alt="image" src="https://github.com/user-attachments/assets/b1b0528c-a963-4a8a-97cb-b54f871d8cb1" />
+
 
 The dashboard displays invoice counts, validation results, structured invoice data, and manual **Approve / Reject** actions.
 
