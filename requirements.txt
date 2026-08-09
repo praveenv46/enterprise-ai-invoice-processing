@@ -9,7 +9,7 @@ azure-core>=1.30.0
 python-dotenv>=1.0.1
 
 # Database
-# sqlite3 is included with Python
+sqlite3 is included with Python
 
 # Dashboard
 streamlit>=1.37.0
