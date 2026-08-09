@@ -1,6 +1,6 @@
 # Enterprise AI Invoice Processing & Validation Platform
 
-**Python · Azure Document Intelligence · OpenAI GPT-4o-mini · SQLite · Streamlit**
+**Python · Microsoft Azure Document Intelligence · OpenAI GPT-4o-mini · SQLite · Streamlit**
 
 > An enterprise-inspired Intelligent Document Processing (IDP) platform for automating invoice ingestion, OCR, structured data extraction, validation, storage, and human review.
 
