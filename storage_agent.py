@@ -3,7 +3,7 @@ import json
 import hashlib
 from datetime import datetime
 
-DB_PATH = r"C:\Users\prave\Desktop\AI\invoice_pipeline.db"
+DB_PATH = r"invoice_pipeline.db"
 
 # ======================================================
 # Database connection
