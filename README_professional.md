@@ -16,16 +16,16 @@ This project automates the early stages of invoice processing by combining **Azu
 
 ## ✨ Key Features
 
-- 📧 Email-based invoice ingestion
-- 🗂️ AI document classification for **Invoice / Purchase Order / Goods Receipt**
-- 🔎 Azure Document Intelligence OCR and table extraction
-- 🧠 GPT-powered structured invoice extraction
-- ✅ Dedicated AI validation layer with anti-hallucination guardrails
-- 🔐 SHA-256 duplicate document detection
-- 🗄️ SQLite persistence for OCR, extracted, and validated results
-- 🧾 Processing event audit trail
-- 👤 Human-in-the-loop approval and rejection workflow
-- 📊 Streamlit review dashboard
+- Email-based invoice ingestion
+- AI document classification for **Invoice / Purchase Order / Goods Receipt**
+- Azure Document Intelligence OCR and table extraction
+- GPT-powered structured invoice extraction
+- Dedicated AI validation layer with anti-hallucination guardrails
+- SHA-256 duplicate document detection
+- SQLite persistence for OCR, extracted, and validated results
+- Processing event audit trail
+- Human-in-the-loop approval and rejection workflow
+- Streamlit review dashboard
 
 ---
 
