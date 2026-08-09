@@ -163,7 +163,8 @@ The Streamlit application provides an operational review layer for processed inv
 
 ### Invoice Requiring Review
 
-![Invoice Requiring Review](images/dashboard_review.png)
+<img width="1010" height="761" alt="image" src="https://github.com/user-attachments/assets/b20ce347-b22b-45db-99f6-36a42c9d06cc" />
+
 
 ### SQLite Database
 
